@@ -69,7 +69,18 @@ pip install -r requirements.txt
 
 ---
 
-### 6. Start Training
+### 6. .env File
+
+```bash
+echo 'HF_TOKEN=' > .env
+```
+* Go to huggingFace -> signIn and then create a new token from the following: settings -> Access Tokens -> + Create New Token
+* Assign HF_TOKEN variable present int the .env file with this created token
+
+---
+
+
+### 7. Start Training
 
 ```bash
 python3 pytorch_main.py
