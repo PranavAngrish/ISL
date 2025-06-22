@@ -1,0 +1,11 @@
+opencv-python
+numpy
+mediapipe
+tqdm
+scikit-learn
+tensorflow
+transformers
+torch
+tf-keras
+python-dotenv
+seaborn
